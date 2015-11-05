@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="kdL-Av-tjh">
+                                <rect key="frame" x="0.0" y="542" width="600" height="50"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P6s-Rb-efN">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="50"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="07S-94-6Uv">
+                                        <rect key="frame" x="150" y="0.0" width="150" height="50"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label 3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hzB-TH-8Y6">
+                                        <rect key="frame" x="300" y="0.0" width="150" height="50"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label 4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MvD-Xj-n17">
+                                        <rect key="frame" x="450" y="0.0" width="150" height="50"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="YNt-d1-LY0"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="Kb0-kC-gcF">
+                                <rect key="frame" x="0.0" y="96" width="600" height="438"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mountains-in-iceland-7" translatesAutoresizingMaskIntoConstraints="NO" id="ypD-FN-1wi">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="107"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mountains-in-iceland-7" translatesAutoresizingMaskIntoConstraints="NO" id="TXI-ol-gjX">
+                                        <rect key="frame" x="0.0" y="110" width="600" height="108"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mountains-in-iceland-7" translatesAutoresizingMaskIntoConstraints="NO" id="YTR-un-UmL">
+                                        <rect key="frame" x="0.0" y="221" width="600" height="107"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mountains-in-iceland-7" translatesAutoresizingMaskIntoConstraints="NO" id="hlB-0c-rSH">
+                                        <rect key="frame" x="0.0" y="331" width="600" height="107"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="ypD-FN-1wi" firstAttribute="leading" secondItem="Kb0-kC-gcF" secondAttribute="leading" id="H4h-Xe-4W7"/>
+                                    <constraint firstAttribute="trailing" secondItem="ypD-FN-1wi" secondAttribute="trailing" id="UWS-Pq-tRJ"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ObjMixProject" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZqN-9E-PEv">
+                                <rect key="frame" x="246" y="67" width="108" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="kdL-Av-tjh" secondAttribute="trailing" id="0Mj-YR-nFn"/>
+                            <constraint firstItem="ZqN-9E-PEv" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="47" id="0kA-98-Hmy"/>
+                            <constraint firstAttribute="trailing" secondItem="Kb0-kC-gcF" secondAttribute="trailing" id="4lT-f9-0YT"/>
+                            <constraint firstItem="Kb0-kC-gcF" firstAttribute="top" secondItem="ZqN-9E-PEv" secondAttribute="bottom" constant="8" id="5sH-OS-G95"/>
+                            <constraint firstItem="Kb0-kC-gcF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="AsC-gj-2Sj"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="kdL-Av-tjh" secondAttribute="bottom" constant="8" id="Llg-3O-k7D"/>
+                            <constraint firstItem="kdL-Av-tjh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="kaq-la-X61"/>
+                            <constraint firstItem="ZqN-9E-PEv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mcQ-Xi-vmV"/>
+                            <constraint firstItem="kdL-Av-tjh" firstAttribute="top" secondItem="Kb0-kC-gcF" secondAttribute="bottom" constant="8" id="w0s-Ap-oae"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="245" y="310"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="mountains-in-iceland-7" width="1080" height="720"/>
+    </resources>
+</document>
